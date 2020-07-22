@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    background-color:;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -39,7 +40,7 @@ blockquote, q {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
+	content: 'none';
 	content: none;
 }
 table {
@@ -50,8 +51,131 @@ table {
 * {
     box-sizing: border-box;
 }
+/* .box { */
+    /* background-color: black;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 0px 25px;
+    display: inline-block;
+    text-align: center;
+  } */
+  header {
+    display: flex;
+  
+  }
+  header img {
+    display: flex;
+    align-items: center;
+  }
+ 
+  .mytopnav {
+    padding: .5%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .trafficimage {
+    margin: 4% auto;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+ 
+  .box:nth-child(1) {
+    background-color: teal;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: inline-block;
+    text-align: center;
+  }
+  .box:nth-child(2) {
+    background-color: gold;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: inline-block;
+    text-align: center;
+  }
+  .box:nth-child(3) {
+    background-color: cadetblue;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: inline-block;
+    text-align: center;
+  }
+  .box:nth-child(4) {
+    background-color: coral;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: inline-block;
+    text-align: center;
+  }
+  .box:nth-child(5) {
+    background-color: crimson;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: inline-block;
+    text-align: center;
+  }
+  .box:nth-child(6) {
+    background-color: forestgreen;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: inline-block;
+    text-align: center;
+  }
+  .box:nth-child(7) {
+    background-color: darkorchid;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: inline-block;
+    text-align: center;
+  }
+  .box:nth-child(8) {
+    background-color: hotpink;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: inline-block;
+    text-align: center;
+  }
+  .box:nth-child(9) {
+    background-color: indigo;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: inline-block;
+    text-align: center;
+  }
+  .box:nth-child(10) {
+    background-color: dodgerblue;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: inline-block;
+    text-align: center;
+  }
 
-html, body {
+  html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
