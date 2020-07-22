@@ -69,10 +69,16 @@ table {
     align-items: center;
   }
  
-  .mytopnav {
-    padding: .5%;
+  header nav {
+    /* fix spacing like example */
+    width:60%;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-around;
+  }
+  header nav a{
+    color: black;
+    text-decoration: none;
   }
   .trafficimage {
     margin: 4% auto;
